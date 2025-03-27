@@ -51,3 +51,6 @@ else:
     except ValueError:
         print("El rango ingresado no es válido. Asegúrese de usar el formato 'desde-hasta'.")
         sys.exit()
+
+# Calcular los factoriales para el rango
+calcular_factoriales_desde_hasta(desde, hasta)
